@@ -9,7 +9,9 @@ The Executioner (V8): Call stacks, heaps, and the Microtask "VIP" checkpoints.
 The Orchestrator (libuv C ): The 6 phases of the Event Loop and asynchronous I/O management.
 
 The Binding Layer (C/C++): How JavaScript talks to the OS via Node.js bindings.
+
 📂 Repository Structure
+
 | Folder | Content | Key Focus |
 | :--- | :--- | :--- |
 | **`01-internals/`** | The "Guts" of the system. | Event Loop, libuv, V8 Bridge, Microtasks. |
