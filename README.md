@@ -10,11 +10,12 @@ The Orchestrator (libuv C ): The 6 phases of the Event Loop and asynchronous I/O
 
 The Binding Layer (C/C++): How JavaScript talks to the OS via Node.js bindings.
 📂 Repository Structure
-Folder	Content	Key Focus
-01-internals/	The "Guts" of the system.	Event Loop, libuv, V8 Bridge, Microtasks.
-02-core-modules/	Standard Library Deep-dives.	Streams, Buffers, EventEmitter, FS, Net.
-03-patterns/	Architectural Solutions.	Async/Await Flow, Error Handling, Concurrency.
-04-lab/	Proof-of-Concept Scripts.	Loop Starvation, I/O Racing, Memory Leak tests.
+| Folder | Content | Key Focus |
+| :--- | :--- | :--- |
+| **`01-internals/`** | The "Guts" of the system. | Event Loop, libuv, V8 Bridge, Microtasks. |
+| **`02-core-modules/`** | Standard Library Deep-dives. | Streams, Buffers, EventEmitter, FS, Net. |
+| **`03-patterns/`** | Architectural Solutions. | Async/Await Flow, Error Handling, Concurrency. |
+| **`04-lab/`** | Proof-of-Concept Scripts. | Loop Starvation, I/O Racing, Memory Leak tests. |
 
 
 ```mermaid
